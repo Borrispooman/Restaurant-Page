@@ -1,12 +1,11 @@
-import coastImgUrl from "../assets/images/coast-palm-beach-10.jpg"
-
+import restaurantImgUrl from "../assets/images/modern-restaurant-interior-with-rustic-accents-6142509.jpg"
 
 export const homeContentLoad = function() {
-const coastImg = document.createElement("img");
-const contentContainer = document.querySelector("#content");
+	const body = document.querySelector("body");
+	body.style.backgroundImage = `url(${restaurantImgUrl})`;
 
-coastImg.src = coastImgUrl; 
-coastImg.alt = "An image of the coast cafe outdoor seating."
+	const homeInfoContainer =  document.createElement("div");
+	homeInfoContainer.className = "info-container"
 
-contentContainer.append(coastImg);
 };
+
