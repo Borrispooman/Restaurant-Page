@@ -1,3 +1,7 @@
+*{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 body{
 	display:grid;
   grid-template-rows: 1fr 6fr;
@@ -9,10 +13,11 @@ header{
 	align-items:center;
 	background-color: black;
 	flex-direction: column;
-	gap: 20px;
-	padding: 20px;
-
+	gap: 30px;
+	padding: 30px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
+
 .logo{
 	font-size: 40px;
 	color:white;
@@ -33,4 +38,27 @@ nav{
 	border-style: none;
 	color: white;
 }
-
+.chef-image{
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+}
+.home-info-container{
+	font-size: 20px;
+	color: white;
+	width: 50%;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: black;
+	flex-direction: column;
+	gap: 30px;
+	padding: 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}		
+#content{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
