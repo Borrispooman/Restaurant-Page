@@ -31,6 +31,7 @@ export const homeContentLoad = function() {
 	homeInfoContainer.appendChild(subHead2);
 	
  	const mainContent =  document.querySelector("#content");
+	mainContent.innerHTML = '';
 	mainContent.appendChild(homeInfoContainer);
 
 };

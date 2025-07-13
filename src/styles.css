@@ -38,12 +38,18 @@ nav{
 	border-style: none;
 	color: white;
 }
+
+.nav-child:hover {
+	border-bottom: 2px solid white; /* Highlight color */
+}
+
+
 .chef-image{
 	border-radius: 50%;
 	width: 400px;
 	height: 400px;
 }
-.home-info-container{
+.home-info-container {
 	font-size: 20px;
 	color: white;
 	width: 50%;
@@ -61,4 +67,21 @@ nav{
 	display:flex;
 	justify-content: center;
 	align-items: center;
+}
+.menu-info-container{
+	font-size: 20px;
+	color: white;
+	width: 50%;
+	height: 80%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr ;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.menu-item{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 }
